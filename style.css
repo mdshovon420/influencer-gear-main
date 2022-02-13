@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Serif', sans-serif;
+    font-weight: 700;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+nav>ul>li{
+    display: flex;
+    list-style: none;
+}
+nav>ul{
+    display: flex;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    margin-left: 2em;
+    
+}
+nav>ul>li :hover{
+    background-color: yellow;
+    padding: 10px;
+}
