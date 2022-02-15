@@ -66,6 +66,8 @@ p{
     transition: transform 3s ease-in-out;
 }
 
+/* 2nd-section */
+
 .second-src{
     display: flex;
     justify-content: center;
@@ -84,6 +86,68 @@ p{
     margin: 30px;
 }
 
+
+
+/*-----------------------------------
+ third-section 
+-----------------------------------*/
+.third-sec{
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.third-sec>h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.product{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-gap: 30px;
+    margin: 0 300px;
+}
+
+.iteams{
+    height: 490px;
+    width: 330px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 40px rgba(128, 128, 128, 0.575);
+}
+
+.price{
+    font-weight: 300;
+}
+
+.iteams>p{
+    color: #787885;
+}
+
+.iteams .fa-solid{
+    color: hsl(43, 100%, 51%);
+}
+
+.see-more{
+    margin: 40px 320px;
+    text-align: right;
+}
+
+.see-more>a{
+    text-decoration: none;
+    color: #E02C6D;
+}
+
+
+
+/*------------------------------------------------------
+ four-section 
+----------------------------------------------------*/
 .four-sec{
     display: flex;
     align-items: center;
@@ -95,16 +159,33 @@ p{
     width: 500px;
     border-radius: 15px;
 }
+/*------------------------------------------
+ footer-sec
+------------------------------------------- */
 
 footer{
     text-align: center;
     color: white;
     padding: 20px;
     width: 100%;
-    background-color: rgb(1, 1, 29);
     box-sizing: border-box;
-
+    background-color: rgb(1, 1, 29);
 }
+footer>p{
+    font-weight: 500;
+}
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social>.fab{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgba(128, 128, 128, 0.479);
+}
+
+
 
 
 
