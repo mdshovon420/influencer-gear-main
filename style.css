@@ -185,9 +185,83 @@ footer>p{
     background-color: rgba(128, 128, 128, 0.479);
 }
 
+/*-----------------------------------
+ media-queari 
+-------------------------------------*/
+
+/* mobile-devis 
+---------------------------------------*/
+@media only screen and (max-width:688px){
+
+    nav, .second-src, .four-sec{
+        display: none;
+    }
+
+    .first-sec{
+        display: block;
+        width: 100%;
+        transform: none;transition: none;
+    }
+    
+    .mini-cam{
+        background-image: none;
+    }
+
+    .mini-cam>img{
+        margin: auto;
+        justify-items: center;
+        height: 300px;width: 300px;
+        
+    }
+
+    
+
+ .product{
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   margin-left: 15px;
+   justify-items: center;
+   grid-gap: 40px;
+ }
+    
+}
 
 
+/*---------------------------------------------------------------
+ tablet-device 
+ --------------------------------------------------------------*/
 
+ @media only screen and (min-width: 688px) and (max-width: 992px) {
+    
+    nav, .second-src, .four-sec{
+        display: none;
+    }
 
+    .first-sec{
+        transform: none;transition: none;
+    }
 
+    .mini-cam{
+        background-image: none;
+        margin: 10px;
+    }
 
+    .head-section{
+        margin: 10px;
+    }
+
+    .product{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10px;
+        justify-items: center;
+        grid-gap: 40px;
+      }
+    
+}
+
+/*---------------------------------------------------------------------
+----------------------------------------------------------------------
+                      All-done 
+----------------------------------------------------------------------
+--------------------------------------------------------------------*/
